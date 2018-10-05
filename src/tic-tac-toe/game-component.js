@@ -2,7 +2,11 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import '../index.css';
 import Board from './board-component.js';
-
+import {
+  HashRouter,
+  Route,
+  Link
+} from 'react-router-dom';
 export default class Game extends React.Component {
     constructor(props) {
         super(props);
@@ -88,7 +92,13 @@ export default class Game extends React.Component {
                     <div>{status}</div>
                     <ol>{moves}</ol>
                 </div>
+            <ul>
+                <li> <Link to="/home">Home</Link> </li>
+
+            </ul>
             </div>
+
+
         );
     }
 }

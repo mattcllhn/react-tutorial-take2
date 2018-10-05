@@ -32,6 +32,7 @@ export default class Board extends React.Component {
                     {this.renderSquare(8)}
                 </div>
             </div>
+
         );
     }
 }
