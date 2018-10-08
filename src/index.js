@@ -6,6 +6,7 @@ import HomeComponent from './home.js';
 import {
   HashRouter,
   Route,
+  Redirect,
   Link
 } from 'react-router-dom';
 
@@ -14,9 +15,12 @@ import {
 ReactDOM.render(
       <HashRouter>
           <div>
+
+    <Redirect from="/" to="/home" />
+
     <Route path="/home" component={HomeComponent}/>
     <Route path="/game" component={Game}/>
     </div>
-  </HashRouter>,
+    </HashRouter>,
     document.getElementById('root')
 );
