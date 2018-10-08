@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Game from './tic-tac-toe/game-componentcomponent.js';
+import Game from './tic-tac-toe/game-component.js';
 import HomeComponent from './home.js';
 import {
   HashRouter,
@@ -14,7 +14,7 @@ import {
 ReactDOM.render(
       <HashRouter>
           <div>
-    <Route path="/" component={HomeComponent}/>
+    <Route path="/home" component={HomeComponent}/>
     <Route path="/game" component={Game}/>
     </div>
   </HashRouter>,
