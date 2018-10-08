@@ -1,6 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-import './index.css';
+import '../index.css';
 import Square from './square.js';
 
 
@@ -32,6 +32,7 @@ export default class Board extends React.Component {
                     {this.renderSquare(8)}
                 </div>
             </div>
+
         );
     }
 }
