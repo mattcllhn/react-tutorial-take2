@@ -22,8 +22,8 @@ export default class HomePage extends React.Component{
             </header>
             <section>
                 <ul>
-                    <li><Link to="/game">Game</Link></li>
-
+                    <li><Link to="/game">Tic-Tac-Toe Game</Link></li>
+                    <li><Link to="/redux">Redux Tutorial</Link></li>
                 </ul>
             </section>
             </div>
